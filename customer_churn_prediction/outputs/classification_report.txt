@@ -1,0 +1,22 @@
+CUSTOMER CHURN PREDICTION — XGBOOST
+
+Dataset rows: 7043
+Training rows: 5634
+Testing rows: 1409
+
+TEST METRICS
+accuracy: 0.7509
+precision: 0.5206
+recall: 0.7781
+f1_score: 0.6238
+roc_auc: 0.8421
+
+CLASSIFICATION REPORT
+              precision    recall  f1-score   support
+
+Retained (0)       0.90      0.74      0.81      1035
+ Churned (1)       0.52      0.78      0.62       374
+
+    accuracy                           0.75      1409
+   macro avg       0.71      0.76      0.72      1409
+weighted avg       0.80      0.75      0.76      1409
